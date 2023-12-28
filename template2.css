@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+section{
+    height: 90%;
+    width: 95%;
+    /* border: 3px solid violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* * NAVIGATION SECTION START HERE ***************************************************** */
+section nav{
+    height: 60px;
+    width: 100%;
+    /* border: 3px solid salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+section nav .nav_div1{
+    height: 40px;
+    width: 110px;
+    /* border: 3px solid green; */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+    text-shadow: 1px 1px 3px #d8d5d5;
+}
+section nav .nav_div2{
+    height: 40px;
+    width: 280px;
+    /* border: 3px solid green; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section nav .nav_div2 #as1{
+    height: 35px;
+    width: 90px;
+    /* border: 2px solid palegreen; */
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section nav .nav_div2 #as1:hover{
+    background-color: #efecff;
+    color: #6d51e9;
+}
+section nav .nav_div2 #as2{
+    height: 35px;
+    width: 140px;
+    /* border: 2px solid palegreen; */
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section nav .nav_div2 #as2:hover{
+    background-color: #efecff;
+    color: #6d51e9;
+}
+section nav .nav_div3{
+    height: 35px;
+    width: 80px;
+    border: 2px solid #6d51e9;
+    color: #6d51e9;
+    font-size: 13px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section nav .nav_div3:hover{
+    background-color: #6d51e9;
+    color: white;
+    font-weight: 600;
+}
+/* * NAVIGATION SECTION ENDS HERE ***************************************************** */
+
+section div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* & IMAGE SECTION START HERE ********************************************************* */
+section div .image_block{
+    height: 480px;
+    width: 38%;
+    /* border: 3px solid salmon; */
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section div .image_block #mobile_border1{
+    height: 400px;
+    width: 200px;
+    border: 2px solid #b8b8b8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section div .image_block #mobile_border1:hover{
+    box-shadow: 1px 1px 10px #674bdc;
+    transition-delay: 150ms;
+}
+section div .image_block aside #mobile_border2{
+    height: 382px;
+    width: 182px;
+    border: 2px solid #b8b8b8;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+section div .image_block aside #notch{
+    height: 25px;
+    width: 80px;
+    margin-bottom: 370px;
+    border-width: 2px;
+    border-style: none solid solid solid;
+    border-color: #b8b8b8;
+    background-color: white;
+    border-radius: 13px;
+    position: absolute;
+}
+section div .image_block #mobile_border1 #notch div{
+    height: 7px;
+    width: 80px;
+    background-color: white;
+}
+
+section div .image_block aside #mobile_border2 .mob_div1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+}
+section div .image_block aside #mobile_border2 .mob_div2{
+    height: 50px;
+    width: 130px;
+    /* border: 2px solid tomato; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+}
+section div .image_block aside #mobile_border2 .mob_div2 #content1{
+    height: 13px;
+    width: 100px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+section div .image_block aside #mobile_border2 .mob_div2 #content2{
+    height: 8px;
+    width: 60px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+section div .image_block aside #mobile_border2 .mob_div3{
+    height: 180px;
+    width: 150px;
+    /* border: 2px solid tomato; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section div .image_block aside #mobile_border2 .mob_div3 article{
+    height: 25px;
+    width: inherit;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    color: white;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    word-spacing: 5px;
+}
+section div .image_block aside #mobile_border2 .mob_div3 .mob_list1{
+    background-color: #191919;
+}
+section div .image_block aside #mobile_border2 .mob_div3 .mob_list2{
+    background-color: #ef383a;
+}
+section div .image_block aside #mobile_border2 .mob_div3 .mob_list3{
+    background-color: #2d69ff;
+}
+
+/* & IMAGE SECTION ENDS HERE ********************************************************* */
+
+/* * FORM SECTION START HERE ********************************************************* */
+section div .form_block{
+    height: 480px;
+    width: 60%;
+    /* border: 3px solid salmon; */
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+section div .form_block .form_as1{
+    height: 70px;
+    width: 720px;
+    /* border: 2px solid sandybrown; */
+    line-height: 26px;
+}
+section div .form_block .form_as1 #fa1{
+    font-size: 24px;
+    font-weight: 600;
+}
+section div .form_block .form_as1 #fa2{
+    font-size: 12px;
+    color: #878787;
+}
+section div .form_block .form_as2{
+    height: 35px;
+    width: 720px;
+    border: 1px solid #5d5199;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    word-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #674bdc;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+section div .form_block .form_as2:hover{
+    background-color: #674bdc;
+    color: white;
+    transition-delay: 20ms;
+}
+section div .form_block aside .form_div{
+    display: flex;
+    flex-direction: column;
+}
+section div .form_block .form_as3{
+    height: 133px;
+    width: 720px;
+    /* border: 2px solid sandybrown; */
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 10px 0px 0px 25px;
+}
+section div .form_block .form_as4{
+    height: 133px;
+    width: 720px;
+    /* border: 2px solid sandybrown; */
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 10px 0px 0px 25px;
+}
+section div .form_block .form_as5{
+    height: 50px;
+    width: 765px;
+    /* border: 2px solid sandybrown; */
+}
+hr{
+    color: #f1f1f1;
+    size: 1px;
+}
+input{
+    height: 31px;
+    width: 670px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    box-shadow: 0 0 3px #dadada;
+    outline-offset: 0px;
+    outline: none;
+    padding-left: 15px;
+}
+input::placeholder{
+    color: #b3aeae;
+}
+input:focus{
+    border: 1px solid #949494;
+    box-shadow: 0 0 3px #633bfe;
+    color: #6e6e6e;
+}
+
+section div .form_block .form_as5 article{
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+    color: white;
+    font-size: 11px;
+    background-color: #633bfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 680px;
+    margin-top: 10px;
+
+}
+section div .form_block .form_as5 article:hover{
+    background-color: white;
+    border: 1px solid #633bfe;
+    color: #633bfe;
+    font-weight: 600;
+}
+section div .form_block .sec1{
+    font-size: 12px;
+    color: #6e6e6e;
+    font-weight: 600;
+}
+section div .form_block .sec2{
+    font-size: 12px;
+    color: #949494;
+    font-weight: 600;
+    padding-right: 15px;
+}
+section div .form_block .class_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 680px;
+}
+section div .form_block .form_div{
+    font-size: 11px;
+    line-height: 17px;
+    color: #6e6e6e;
+}
+
+/* * FORM SECTION ENDS HERE ********************************************************* */
